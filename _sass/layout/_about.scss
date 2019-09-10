@@ -1,0 +1,40 @@
+/* About Section - */
+
+#about{
+  background-color: _palette(light-alt);
+}
+
+
+section{
+  /* About Home Page -  */
+&.about{
+  > .inner {
+      @include vendor('transition', (
+        'opacity 1.5s ease',
+        'transform 0.5s ease-out',
+        'filter 0.5s ease',
+        '-webkit-filter 0.5s ease'
+      ));
+      margin: 0 auto;
+      max-width: 100%;
+      width: _size(inner);  
+      position: relative;
+      z-index: 2;
+
+      p{
+        color:_palette(bg);
+        width: 48%;
+        letter-spacing: .15em;
+      } 
+    }
+
+    @include breakpoint(medium) {
+      > .inner {
+        p {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+

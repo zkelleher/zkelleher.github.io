@@ -1,0 +1,135 @@
+<!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+			<form action="https://formspree.io/{{ site.email }}" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+				</ul>
+			</form>
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+
+				{% if site.linkedin_url %}
+				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+
+				{% if site.github_url %}
+				<li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				{% endif %}
+
+				{% if site.codepen_url %}
+				<li><a href="{{ site.codepen_url }}" class="icon alt fa-codepen" target="_blank"><span class="label">Codepen</span></a></li>
+				{% endif %}
+				
+				{% if site.instagram_url %}
+				<li><a href="{{ site.instagram_url }}" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				{% endif %}
+
+			</ul>
+			<ul class="copyright">
+				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+				<li>Say Hello</li>
+				
+
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
+	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+
+	<!--ThreeJS--> 
+<!-- 	<script src="{{ "assets/js/three.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/simplex.noise.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/threex.terrain.js" | absolute_url }}"></script> -->
+
+<!-- 	<script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/build/three-min.js'></script> -->
+<!-- <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/examples/js/SimplexNoise.js'></script> -->
+<!-- <script>
+	var renderer	= new THREE.WebGLRenderer({
+		antialias	: true
+	});
+/* Fullscreen */
+	renderer.setSize( window.innerWidth, window.innerHeight);
+/* Append to HTML */
+	document.getElementById('banner').appendChild( renderer.domElement );
+	var onRenderFcts= [];
+	var scene	= new THREE.Scene();
+	var camera	= new THREE.PerspectiveCamera(15, window.innerWidth /    window.innerHeight, 0.01, 1000);
+/* Play around with camera positioning */
+	camera.position.z = 15; 
+  camera.position.y = 2;
+/* Fog provides depth to the landscape*/
+  scene.fog = new THREE.Fog(0x000, 0, 45);
+	;(function(){
+		var light	= new THREE.AmbientLight( 0x404040 )
+		scene.add( light )
+		var light	= new THREE.DirectionalLight('white', 5)
+		light.position.set(0.5, 0.0, 2)
+		scene.add( light )
+		var light	= new THREE.DirectionalLight('white', 0.75*2)
+		light.position.set(-0.5, -0.5, -2)
+		scene.add( light )		
+	})()
+	var heightMap	= THREEx.Terrain.allocateHeightMap(256,256)
+	THREEx.Terrain.simplexHeightMap(heightMap)	
+	var geometry	= THREEx.Terrain.heightMapToPlaneGeometry(heightMap)
+	THREEx.Terrain.heightMapToVertexColor(heightMap, geometry)
+
+	var material	= new THREE.MeshBasicMaterial({
+		wireframe: true
+	});
+	var color = new THREE.Color( 0xff0000 );
+	var mesh	= new THREE.Mesh( geometry, material );
+	scene.add( mesh );
+	mesh.lookAt(new THREE.Vector3(0,1,0));
+/* Play around with the scaling */
+	mesh.scale.y	= 3.8;
+	mesh.scale.x	= 3;
+	mesh.scale.z	= 0.20;
+	mesh.scale.multiplyScalar(10);
+/* Play around with the camera */
+	onRenderFcts.push(function(delta, now){
+		mesh.rotation.z += 0.01 * delta;	
+	})
+	onRenderFcts.push(function(){
+		renderer.render( scene, camera );		
+	})
+	var lastTimeMsec= null
+	requestAnimationFrame(function animate(nowMsec){
+		requestAnimationFrame( animate );
+		lastTimeMsec	= lastTimeMsec || nowMsec-1000/60
+		var deltaMsec	= Math.min(200, nowMsec - lastTimeMsec)
+		lastTimeMsec	= nowMsec
+		onRenderFcts.forEach(function(onRenderFct){
+			onRenderFct(deltaMsec/1000, nowMsec/1000)
+		})
+	})
+</script> -->
