@@ -1,8 +1,8 @@
 ---
-title: All Gud
+title: Carousel
 layout: project
 description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/allgud/allgud-thumb-color.png
+image: assets/images/carousel/carousel-thumb.png
 nav-menu: true
 ---
 
@@ -13,12 +13,12 @@ nav-menu: true
 <section id="two" class="spotlights">
   <section>
     <a href="generic.html" class="image">
-      <img src="/assets/images/allgud/allgud-desktop.png" alt="" data-position="center center" />
+      <img src="/assets/images/carousel/carousel-desktop.png" alt="" data-position="center center" />
     </a>
     <div class="content">
       <div class="inner">
         <header class="major">
-          <h2 class="dark">All Gud</h2>
+          <h2 class="dark">Carousel Industries</h2>
         </header>
         <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
       </div>

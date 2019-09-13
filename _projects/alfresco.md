@@ -2,7 +2,7 @@
 title: Alfresco
 layout: project
 description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/alfo/alfo-thumb-cover.jpg
+image: assets/images/alfo/alfo-desktop-thumb.png
 nav-menu: true
 ---
 

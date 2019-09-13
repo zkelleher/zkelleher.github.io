@@ -2,7 +2,7 @@
 title: Waypoint Solutions
 layout: project
 description: 'Waypoint focuses on infrastructure assessment, design, and deployment to optimize IT infrastructure.'
-image: assets/images/waypoint/wps-thumb-cover.jpg
+image: assets/images/waypoint/wps-thumb.png
 nav-menu: true
 ---
 

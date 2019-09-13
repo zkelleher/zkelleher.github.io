@@ -4,6 +4,25 @@
   background-color: _palette(light-alt);
 }
 
+.about-alt{
+  .inner{
+    h2{
+      color: _palette(bg);
+      font-family:_font(title);
+      text-transform: uppercase;
+      line-height: 1;
+      letter-spacing: .09em;
+      margin: 0 0 .5em 0;
+    }
+
+    p{
+      color:_palette(bg);
+      letter-spacing: .1em;
+    }
+        
+  }
+}
+
 
 section{
   /* About Home Page -  */
@@ -23,8 +42,8 @@ section{
 
       p{
         color:_palette(bg);
-        width: 48%;
-        letter-spacing: .15em;
+        width: 43%;
+        letter-spacing: .1em;
       } 
     }
 
