@@ -44,6 +44,20 @@ img {
 				width: 100%;
 			}
 		}
+		&.fit-half {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 50%;
+
+			img {
+				width: 50%;
+			}
+		}
+		&.small{
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 50%;
+		}
 
 		&.main {
 			display: block;

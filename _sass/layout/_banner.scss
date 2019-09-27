@@ -3,20 +3,15 @@
 
 	#banner {
 		&.major {
-			height: 100vh;
+			height: 80vh;
 			min-height: 30em;
 			max-height: 50em;
 		@include vendor('align-items', 'center');
 		// @include vendor('background-image', 'url("../images/banner.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
-		background-attachment: fixed;
-		background-position: center 2em;
-		background-repeat: no-repeat;
-		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 100vh;
 		max-height: 36em;
 		min-height: 22em;
 		position: relative;
@@ -38,13 +33,13 @@
 		}
 
 		h1 {
-			font-size: 5.25em;
+			font-size: 4.25em;
 			color: _palette(highlight);
 			font-family:_font(title);
 			text-transform: uppercase;
-			line-height: 1.2;
+			line-height: 1.1;
 			letter-spacing: .1em;
-			text-shadow: 4px 3px 0px _palette(bg), 6px 5px 0px _palette(light);
+			text-shadow: 3px 2px 0px _palette(bg), 4px 3px 0px _palette(light);
 			margin: 0 0 .5em 0;
 
 			&:after {
@@ -123,7 +118,6 @@
 			}
 
 			> .inner {
-				@include vendor('filter', 'blur(0.125em)');
 				@include vendor('transform', 'translateX(-0.5em)');
 				opacity: 0;
 			}

@@ -10,10 +10,10 @@ author: Zach Kelleher
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /:path/
 
 # homepage tiles
-tiles-source: project # accepts "posts" or "pages"
+tiles-source: project 
 tiles-count: 6
 
 # social settings

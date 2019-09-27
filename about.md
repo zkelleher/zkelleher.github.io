@@ -10,16 +10,23 @@ nav-menu: true
 
 <div id="main">
 
-<section id="banner" class="style2">
+<section id="about" class="spotlights">
+  <section>
+    <a href="/projects/alfresco/" class="image">
+      <img src="assets/images/profile.png" alt="" data-position="center center" />
+    </a>
+    <div class="content">
       <div class="inner">
-          <header class="major">
-            <h1>Hello, I'm Zach</h1>
-          </header>
+        <header class="major">
+          <h1>Hello, I'm Zach</h1>
+        </header>
           <div class="content">
               The digital world is my sandbox and it’s my passion to create effective visual brands and digital experiences. By constantly challenging myself in my design and development work, I keep up&#x2011;to&#x2011;date with the ever changing tools and technologies. 
           </div>
       </div>
+    </div>
   </section>
+</section>  
 
 <!-- One -->
 <section id="one" class="about-alt">
@@ -30,7 +37,7 @@ nav-menu: true
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Design Systems</h3>
-    <span class="image fit"><img src="assets/images/pic03.jpg" alt="" /></span>
+    <span class="image fit-half"><img src="assets/images/d-system-graphic.png" alt="" /></span>
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
 	<div class="6u$ 12u$(small)">

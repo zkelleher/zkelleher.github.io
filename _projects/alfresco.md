@@ -3,7 +3,7 @@ title: Alfresco
 layout: project
 description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
 image: assets/images/alfo/alfo-desktop-thumb.png
-nav-menu: true
+
 ---
 
 <!-- Main -->
@@ -12,9 +12,9 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
   <section>
-    <a href="generic.html" class="image">
+    <span class="image">
       <img src="/assets/images/alfo/alfo-desktop.png" alt="" data-position="center center" />
-    </a>
+    </span>
     <div class="content">
       <div class="inner">
         <header class="major">
@@ -34,7 +34,7 @@ nav-menu: true
 
 <div class="row">
   <div class="6u 12u$(small)">
-    <span class="image fit"><img src="/assets/images/waypoint/wps-lander-home.png" alt="" /></span>
+    <span class="image fit"><img src="/assets/images/alfo/alfo-lander.png" alt="" /></span>
     <!-- <h3>Sem turpis amet semper</h3>
     <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p> -->
   </div>
@@ -56,20 +56,8 @@ nav-menu: true
     <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
   </div>
 </div>
-</div>
-</section>
 
-<!-- Three -->
-<section id="three">
-  <div class="inner">
-    <header class="major">
-      <h2>Massa libero</h2>
-    </header>
-    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-    <ul class="actions">
-      <li><a href="generic.html" class="button next">Get Started</a></li>
-    </ul>
-  </div>
+</div>
 </section>
 
 </div>
